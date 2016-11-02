@@ -1,0 +1,8 @@
+#all/tslib
+./configure -prefix /home/optics/Qt5.7_For_Arm -release -opensource -tslib -no-qml-debug -xplatform $PWD/qtbase/mkspecs/linux-arm-gnueabihf-g++ -no-opengl -nomake tests -nomake examples
+
+#all
+./configure -prefix /home/optics/Qt5.7_For_Arm -release -opensource -xplatform $PWD/qtbase/mkspecs/linux-arm-gnueabihf-g++ -no-opengl -nomake tests -nomake examples
+
+#qtbase
+./configure -prefix /home/optics/Qt5.7_For_Arm -release -opensource -no-qml-debug -xplatform $PWD/mkspecs/linux-arm-gnueabihf-g++ -no-opengl -nomake tests -nomake examples
